@@ -14,3 +14,9 @@ This extension uses manifest v3
 1. Create an instance of template in Github
 2. Run `yarn && yarn dev` to start extension in dev mode
 3. Load unpacked extension from `build/` folder
+
+## Creating prod build
+
+```
+$ yarn && yarn build
+```

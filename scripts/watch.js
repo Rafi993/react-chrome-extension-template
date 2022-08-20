@@ -12,8 +12,6 @@ const ExtensionReloader = require('webpack-extension-reloader');
 
 const config = configFactory('development');
 
-config.entry = config.entry;
-
 config.output.path = paths.appBuild;
 paths.publicUrl = paths.appBuild + '/';
 

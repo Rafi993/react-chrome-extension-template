@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    target-branch: 'main'
+    labels:
+      - 'Package upgrades'
+      - 'Dependabot'
+    open-pull-requests-limit: 50

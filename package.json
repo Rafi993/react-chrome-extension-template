@@ -45,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.195",
+    "@types/chrome": "^0.0.210",
     "autoprefixer": "^10.4.8",
     "fs-extra": "^10.1.0",
     "postcss": "^8.4.16",
